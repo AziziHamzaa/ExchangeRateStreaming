@@ -47,5 +47,6 @@ For example, if we have data arriving at times t1, t2, t3, t4, t5, t6, t7, t8, t
 Within each window, the exchange rate data will be multiplied by 2 using the map operation and then aggregated using the reduce operation. Finally, the aggregated data will be printed to the console using the print operation.
 
 Overall, the logic for the sliding window operation is to define a fixed-size window and a slide interval, and then to process the data within each window using appropriate operations such as map and reduce.
- ## Exchange Rates Plotting ( Bitcoin, Ethereum and Ripple)  
+ ## Exchange Rates Plotting ( Bitcoin, Ethereum and Ripple)
+ This project includes a plotting component for visualizing Cryptocurrencies exchange rates using Python, which can be found in the notebook titled "RapidAPI_Crypto.ipynb".
  ![Alt Text](plotting_Exchange_Rates.png)
